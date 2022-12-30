@@ -3,6 +3,12 @@ import os, sys
 import pprint
 import json
 from lime import lime_tabular
+import warnings
+import pprint
+
+warnings.filterwarnings("ignore")
+os.environ["MPLCONFIGDIR"] = os.getcwd() + "/configs/"
+
 
 import algorithm.utils as utils
 import algorithm.preprocessing.pipeline as pipeline

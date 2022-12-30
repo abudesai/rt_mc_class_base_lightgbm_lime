@@ -10,6 +10,7 @@ import sys
 import os, warnings
 
 warnings.filterwarnings("ignore")
+os.environ["MPLCONFIGDIR"] = os.getcwd() + "/configs/"
 
 import algorithm.utils as utils
 from algorithm.model_server import ModelServer

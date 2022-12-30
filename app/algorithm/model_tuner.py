@@ -13,6 +13,7 @@ import sys
 from sklearn.model_selection import train_test_split
 
 warnings.filterwarnings('ignore') 
+os.environ["MPLCONFIGDIR"] = os.getcwd() + "/configs/"
 
 import algorithm.utils as utils 
 import algorithm.model_trainer as model_trainer

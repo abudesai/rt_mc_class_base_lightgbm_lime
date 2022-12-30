@@ -5,6 +5,7 @@ LightGBM Classifier with LIME explanations for Multi-class Classification - Base
 - boosting
 - multi-class classification
 - XAI
+- LIME
 - sklearn
 - python
 - pandas
