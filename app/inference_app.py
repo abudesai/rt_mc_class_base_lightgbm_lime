@@ -20,7 +20,7 @@ from algorithm.model.mc_classifier import MODEL_NAME
 prefix = "/opt/ml_vol/"
 data_schema_path = os.path.join(prefix, "inputs", "data_config")
 model_path = os.path.join(prefix, "model", "artifacts")
-failure_path = os.path.join(prefix, "outputs", "errors", "serve_failure")
+failure_path = os.path.join(prefix, "outputs", "errors", "serve_failure.txt")
 
 
 # get data schema - its needed to set the prediction field name
